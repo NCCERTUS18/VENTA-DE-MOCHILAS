@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/25ffacb091.js" crossorigin="anonymous"></script>
+    <title>Tienda de Mochilas</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo de estilos -->
+</head>
+<body>
+
+    <!-- Barra superior con contacto, buscador, filtro y carrito -->
+<div class="top-bar">
+    <div class="contact-info">
+        <p>Contacto: info@mochilas.com | Tel: 907-189-536</p>
+    </div>
+    <div class="search-filter-cart">
+        <input type="text" id="search" placeholder="Buscar mochilas...">
+        <select id="filter">
+            <option value="todos">Todos los tipos</option>
+            <option value="deportiva">Deportiva</option>
+            <option value="escolar">Escolar</option>
+            <option value="senderismo">Senderismo</option>
+            <option value="diseno">Con Diseños</option>
+        </select>
+        <button id="search-btn">Buscar</button>
+        <a href="carrito.html" class="cart">🛒 Carrito</a>
+    </div>
+</div>
+
+    <!-- Título -->
+<div class="title">
+    <h1>Bienvenido al mundo de las Mochilas</h1>
+</div>
+
+    <!-- Banner Animado -->
+    <div class="banner">
+        <h2>¡Descubre Nuestras Mochilas Exclusivas!</h2>
+        <div class="banner-images">
+            <div class="slide-wrapper">
+                <div class="slide"><img src="baner01.jpg" alt="Mochila 1"></div>
+                <div class="slide"><img src="mochila-banner2.jpg" alt="Mochila 2"></div>
+                <div class="slide"><img src="mochila-banner3.jpg" alt="Mochila 3"></div>
+            </div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+
+    <!-- Navegación -->
+    <div class="nav">
+        <a href="#home">Inicio</a>
+        <a href="#catalog">Catálogo</a>
+        <a href="#contact">Contacto</a>
+    </div>
+
+    <!-- Contenido principal -->
+    <div id="home" class="catalog">
+        <h2>Catálogo de Mochilas</h2>
+        <div class="product">
+            <img src="mochila01.jpg" alt="Mochila Deportiva">
+            <h3>Mochila Deportiva</h3>
+            <p>Precio: 49.90</p>
+            <a href="mochila1-detalle.html">Ver detalles</a>
+        </div>
+        <div class="product">
+            <img src="mochila02.jpg" alt="Mochila Escolar">
+            <h3>Mochila Escolar</h3>
+            <p>Precio: 39.90</p>
+            <a href="mochila2-detalle.html">Ver detalles</a>
+        </div>
+        <div class="product">
+            <img src="mochila03.jpg" alt="Mochila de Senderismo">
+            <h3>Mochila de Senderismo</h3>
+            <p>Precio: 89.90</p>
+            <a href="mochila3-detalle.html">Ver detalles</a>
+        </div>
+        <div class="product">
+            <img src="mochila04.jpeg" width="225px" height="225px" alt="Mochila con Diseños">
+            <h3>Mochila con Diseños</h3>
+            <p>Precio: 120.90</p>
+            <a href="mochila4-detalle.html">Ver detalles</a>
+        </div>
+    </div>
+</div>
+<!-- Pie de página con logo de WhatsApp y número -->
+<div class="footer">
+    <a href="https://wa.me/123456789" target="_blank" class="whatsapp">
+        <i class="fa-brands fa-whatsapp fa-2xl" style="color: #00ad79;"></i>
+        <span class="whatsapp-text"> whatsapp </span>
+    </a>
+</div>
+<!-- Pie de página con contactos de redes sociales -->
+<div class="footer">
+    <div class="footer-content">
+        <!-- Redes Sociales -->
+         <h3>MEDIO DE CONTACTOS</h3>
+        <div class="social-links">
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="social-link">
+                <i class="fab fa-facebook social-icon"></i> Facebook
+            </a>
+            <a href="https://twitter.com/yourpage" target="_blank" class="social-link">
+                <i class="fab fa-twitter social-icon"></i> Twitter
+            </a>
+            <a href="https://instagram.com/yourpage" target="_blank" class="social-link">
+                <i class="fab fa-instagram social-icon"></i> Instagram
+            </a>
+             <!-- Medios de Pagos -->
+        <div class="payment-section">
+            <h3>MEDIO DE PAGOS</h3>
+            <div class="payment-icons">
+                <a href="#" class="payment-link">
+                    <i class="fab fa-cc-visa payment-icon"></i> BCP
+                </a>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+

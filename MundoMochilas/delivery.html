@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Entrega</title>
+</head>
+<link rel="stylesheet" href="stylodelivery.css">
+<body>
+
+    <header>
+        <h1>Formulario de Entrega</h1>
+    </header>
+
+    <main>
+        <section class="info">
+            <h2>¿Cómo configurar tu entrega?</h2>
+            <p>Para asegurarnos de que tu pedido de mochilas llegue a la dirección correcta, por favor completa el formulario a continuación con los detalles de entrega. Si tienes alguna preferencia especial para la entrega, indícalo en el campo de notas.</p>
+        </section>
+
+        <section class="entrega">
+            <h2>Detalles de Entrega</h2>
+            <form action="/configurar-entrega" method="post">
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="nombre">Nombre Completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div class="form-column">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="telefono">Número de Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+                    </div>
+
+                    <div class="form-column">
+                        <label for="direccion">Dirección de Entrega:</label>
+                        <input type="text" id="direccion" name="direccion" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="ciudad">Ciudad:</label>
+                        <input type="text" id="ciudad" name="ciudad" required>
+                    </div>
+
+                    <div class="form-column">
+                        <label for="codigo-postal">Código Postal:</label>
+                        <input type="text" id="codigo-postal" name="codigo-postal" required>
+                    </div>
+                </div>
+
+                <label for="notas">Notas Adicionales:</label>
+                <textarea id="notas" name="notas" rows="4"></textarea>
+
+                <button type="submit">Confirmar Entrega</button>
+            </form>
+        </section>
+
+        <section class="contacto">
+            <h2>Contacto Adicional</h2>
+            <p>Para cualquier pregunta adicional sobre la entrega, puedes contactarnos a través de:</p>
+            <ul>
+                <li><strong>Teléfono:</strong> +51 907 189 536</li>
+                <li><strong>Correo Electrónico:</strong> mundodemochilas01@gmail.com</li>
+                <li><strong>Dirección:</strong> Av. Elmer Faucett 3443, Callao 07031, Lima, Perú</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 . Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
